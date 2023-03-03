@@ -20,11 +20,11 @@ Returns Duty cycle as output for the switching device in the boost converter
 #define panelMeter A0         // Analog input pin for PV voltmeter
 #define batteryMeter A1       // Analog input pin for battery voltmeter
 #define driver 3              // PWM output pin to mosfet driver (needs to be 3 or 11 with safe timer)
-#define Vbulk 130             // Bulk voltage set-point (deci Volts)
-#define lowBatt 44            // Low battery voltage set-point (deci Volts)
-#define Vmax 52               // Maximum voltage the batteries should hit before throwing an error (deci Volts)
+#define Vbulk 48              // Bulk voltage set-point (Volts)
+#define lowBatt 44            // Low battery voltage set-point (Volts)
+#define Vmax 52               // Maximum voltage the batteries should hit before throwing an error (Volts)
 #define check 15000           // 15 seconds in milliseconds
-#define Vfloat 48             // Float voltage set-point (deci Volts)
+#define Vfloat 48             // Float voltage set-point (Volts)
 
 // Variables
 int V_pv;                    // PV voltage
