@@ -1,6 +1,6 @@
-# Boost-converter-controll-testing
+# Buck-Boost-converter-controll-testing
 
-Controll system code for Boost converter LM5170EVM-BIDIR between PV and Bus
+Controll system code for Buck-Boost converter LM5170EVM-BIDIR between PV and Bus
 
 GridVIlle
 
